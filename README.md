@@ -91,7 +91,8 @@ Q4 - Which side-channel feature contributes most to detection accuracy?
 
 ## Possible Open-Source Core:
 
-
+### PicoRV32 
+PicoRV32 is an excellent processor core for a Hardware Trojan Detection Homelab because it is a compact, open-source RISC-V CPU that is easy to understand, modify, simulate, and deploy on an FPGA. Its simplicity makes it ideal for experimenting with Trojan insertion and evaluating detection techniques without the complexity of a large commercial processor.
 
 
 
