@@ -1,7 +1,7 @@
 # Hardware-Trojan-Detection
 
 
-* Final year Project for Research - *
+ Final year Project for Research - 
 Hardware Trojan Detection and Attribution Framework Using Multi-Modal Side-Channel Analysis, Formal Verification, and Machine Learning 
 
 
@@ -9,18 +9,18 @@ Hardware Trojan Detection and Attribution Framework Using Multi-Modal Side-Chann
 
 Current hardware Trojan detection approaches suffer from:
 
-High false positives
-Difficulty detecting stealth Trojans
-Poor scalability
-Limited explain ability 
+* High false positives
+* Difficulty detecting stealth Trojans
+* Poor scalability
+* Limited explain ability 
 
 The research objective is to create a framework capable of:
 
-Detecting Hardware Trojans
-Classifying Trojan families
-Identifying trigger mechanisms
-Estimating attack severity
-Producing explainable evidence
+1. Detecting Hardware Trojans
+2. Classifying Trojan families
+3. Identifying trigger mechanisms
+4. Estimating attack severity
+5. Producing explainable evidence
 
 
 ## Questions
@@ -32,19 +32,19 @@ Q4 - Which side-channel feature contributes most to detection accuracy?
 
 ## Project becomes:
 
-Trojan Inserted
-↓
-Multi-Domain Measurements
-↓
-Feature Extraction
-↓
-ML Classification
-↓
-Explainability Engine
-↓
-Forensic Attribution
-↓
-Risk Assessment
+           Trojan Inserted
+                  ↓
+      Multi-Domain Measurements
+                  ↓
+          Feature Extraction
+                  ↓
+          ML Classification
+                  ↓
+        Explainability Engine
+                  ↓
+         Forensic Attribution
+                 ↓
+           Risk Assessment
 
 
 ## Research Architecture
