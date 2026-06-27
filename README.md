@@ -1,6 +1,8 @@
 # Hardware-Trojan-Detection
 
-## Hardware Trojan Detection and Attribution Framework Using Multi-Modal Side-Channel Analysis, Formal Verification, and Machine Learning 
+
+# Final year Project for Research -
+Hardware Trojan Detection and Attribution Framework Using Multi-Modal Side-Channel Analysis, Formal Verification, and Machine Learning 
 
 
 ## Problem
