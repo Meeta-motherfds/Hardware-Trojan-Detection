@@ -46,8 +46,6 @@ Risk Assessment
 
 
 ## Research Architecture
-
-
                  ┌─────────────┐
                  │ FPGA Device │
                  └──────┬──────┘
@@ -75,7 +73,6 @@ Risk Assessment
                    ▼
 
           Forensic Dashboard
-
 
           
 ## Research Dataset Generation
