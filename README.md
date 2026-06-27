@@ -54,7 +54,7 @@ Risk Assessment
       │                 │                 │
       ▼                 ▼                 ▼
 
- Power Trace      Timing Trace     EM Trace
+    Power Trace       Timing Trace         EM Trace
 
       │                 │                 │
       └────────────┬────┴────┬────────────┘
