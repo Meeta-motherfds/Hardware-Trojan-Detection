@@ -79,14 +79,14 @@ Q4 - Which side-channel feature contributes most to detection accuracy?
           
 ## Research Dataset Generation
 
-# Designs - Develop multiple reference circuits like :
+## Designs - Develop multiple reference circuits like :
 
-# AES Encryption Core
-# UART Controller
-# Traffic Light Controller
-# Memory Controller
-# ALU Design
-# RISC-V Processor Core
+*  AES Encryption Core
+* UART Controller
+* Traffic Light Controller
+* Memory Controller
+* ALU Design
+* RISC-V Processor Core
 
 
 ## Possible Open-Source Core:
