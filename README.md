@@ -1,37 +1,35 @@
 # Hardware-Trojan-Detection
 
+## Hardware Trojan Detection and Attribution Framework Using Multi-Modal Side-Channel Analysis, Formal Verification, and Machine Learning 
 
 
+## Problem
 
-Research Problem
 Current hardware Trojan detection approaches suffer from:
+
 High false positives
 Difficulty detecting stealth Trojans
 Poor scalability
-Limited explainability
+Limited explain ability 
+
 The research objective is to create a framework capable of:
+
 Detecting Hardware Trojans
 Classifying Trojan families
 Identifying trigger mechanisms
 Estimating attack severity
 Producing explainable evidence
-Research Questions
-RQ1
-Can side-channel signals identify Hardware Trojans before activation?
-RQ2
-Can machine learning classify Trojan types?
-RQ3
-Can explainable AI identify malicious logic regions?
-RQ4
-Which side-channel feature contributes most to detection accuracy?
-Novel Contribution
-Most student projects stop at:
-Trojan Inserted
-↓
-Power Increased
-↓
-Detected
-Your project becomes:
+
+
+## Questions
+Q1 - Can side-channel signals identify Hardware Trojans before activation?
+Q2 - Can machine learning classify Trojan types?
+Q3 - Can explainable AI identify malicious logic regions?
+Q4 - Which side-channel feature contributes most to detection accuracy?
+
+
+## Project becomes:
+
 Trojan Inserted
 ↓
 Multi-Domain Measurements
@@ -45,7 +43,11 @@ Explainability Engine
 Forensic Attribution
 ↓
 Risk Assessment
-Research Architecture
+
+
+## Research Architecture
+
+
                  ┌─────────────┐
                  │ FPGA Device │
                  └──────┬──────┘
@@ -73,13 +75,27 @@ Research Architecture
                    ▼
 
           Forensic Dashboard
-Research Dataset Generation
-Golden Designs
-Develop multiple reference circuits:
-AES Encryption Core
-UART Controller
-Traffic Light Controller
-Memory Controller
-ALU Design
-RISC-V Processor Core
-Possible open-source core:
+
+
+          
+## Research Dataset Generation
+
+# Designs - Develop multiple reference circuits like :
+
+# AES Encryption Core
+# UART Controller
+# Traffic Light Controller
+# Memory Controller
+# ALU Design
+# RISC-V Processor Core
+
+
+## Possible Open-Source Core:
+
+
+
+
+
+
+
+
