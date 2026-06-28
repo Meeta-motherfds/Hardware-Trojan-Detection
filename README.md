@@ -374,69 +374,88 @@ Severity                  High
      
 ### F1 Score
 
-#### Research target:
-
+#### Research target:  
 Above 90%
-Experimental Design
-Phase 1
-Generate: code 
+
+
+### Experimental Design
+
+##### Phase 1
+Generate:  
+
 50 Golden Designs
-Phase 2
+
+##### Phase 2
+
 Insert:
+
 100 Trojan Variants
-Phase 3
+
+##### Phase 3
+
 Collect:
+
 1000+ Traces
-Phase 4
+
+##### Phase 4
+
 Train ML Models
-Phase 5
+
+##### Phase 5
+
 Evaluate Detection
-Statistical Validation
-Use:
-ANOVA
-T-Test
-Mann-Whitney U Test
+
+
+### Statistical Validation
+ Use:    ANOVA
+         T-Test
+         Mann-Whitney U Test
+
 Demonstrate significance.
-Dashboard Development
+
+
+### Dashboard Development
+
 Create web dashboard.
 Stack:
-Python
-Flask
-SQLite
-Plotly
+       * Python
+       * Flask
+       * SQLite
+       * Plotly
+
+       
 Features:
-Live Detection
 
-Trojan Score
+   Live Detection
 
-Evidence Viewer
+   Trojan Score
+   
+   Evidence Viewer
 
-Power Graphs
+   Power Graphs
 
-Threat Alerts
-Expected Deliverables
-Research Paper
-25–35 pages
-Sections:
-Abstract
-Literature Review
-Methodology
-Experiments
-Results
-Discussion
-Future Work
-Dataset
+   Threat Alerts
+
+    
+### Dataset
+
 1000+
 Power Traces
-Publish on GitHub.
-Source Code
+
+
+#### Source Code
+
 Verilog
 Python
 ML Models
 Dashboard
-Detection Framework
+
+#### Detection Framework
+
 TrojanDetector.py
-Forensic Toolkit
+
+#### Forensic Toolkit
+
 HardwareForensicsSuite
 
 
