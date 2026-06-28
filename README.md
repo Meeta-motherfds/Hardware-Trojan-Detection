@@ -257,36 +257,49 @@ Transition Count
 Trojan Present
 Trojan Absent
 
-###########
 
-Models
-Random Forest
-XGBoost
-Support Vector Machine
-Isolation Forest
-One-Class SVM
-Autoencoder
-Deep Learning Extension
-Use:
-CNN
+## Models
+
+*  Random Forest
+*  XGBoost
+*  Support Vector Machine
+*  Isolation Forest
+*  One-Class SVM
+*  Autoencoder
+
+  
+## Deep Learning Extension
+
+Use: 
+   #### CNN
+   
+Input: 
+   Power Trace Image
+
+   #### LSTM   
+   
 Input:
-Power Trace Image
-LSTM
-Input:
-Time Series Signals
-Explainable AI
-Most research reviewers love this section.
+   Time Series Signals
+
+
+## Explainable AI
+
 Use:
-SHAP
-LIME
+   #### SHAP
+   #### LIME
+   
 Outputs:
-Feature Importance
+     Feature Importance
 
-Most Suspicious Signal
+     Most Suspicious Signal
 
-Detection Confidence
-Forensic Investigation Framework
+     Detection Confidence
+
+
+## Forensic Investigation Framework
+
 Treat Hardware Trojan as a cybercrime scene.
+ 
 Evidence Sources
 FPGA Bitstream
 Power Traces
@@ -295,56 +308,78 @@ Timing Reports
 Waveforms
 Logic Analyzer Data
 Simulation Results
-Digital Evidence Management
-Evidence Collection
-↓
-Hashing
-↓
-Storage
-↓
-Analysis
-↓
-Reporting
+
+
+## Digital Evidence Management
+
+
+      Evidence Collection
+                ↓
+             Hashing
+                ↓
+             Storage
+                ↓
+             Analysis
+                ↓
+            Reporting
+
+            
 Use:
-SHA-256
+
+#### SHA-256
+
 Example:
-sha256sum trojan.bit
-Attribution Engine
+        sha256sum trojan.bit
+
+        
+## Attribution Engine
+
 Determine:
-Trojan Type
-Trigger Type
-Payload Type
-Severity
+
+* Trojan Type
+* Trigger Type
+* Payload Type
+* Severity
+
+  
 Example:
-Attribute
-Result
-Family
-Data Leakage
-Trigger
-Rare Input
-Confidence
-96.2%
-Severity
-High
-Research Metrics
-Detection Accuracy
-TP+TN
--------
-Total
-Precision
-TP
------
-TP+FP
-Recall
-TP
------
-TP+FN
-F1 Score
-Research target:
+
+#### Attribute            Result
+
+Family                    Data Leakage
+Trigger                   Rare Input
+Confidence                96.2%
+Severity                  High
+
+
+## Research Metrics
+
+#### Detection Accuracy
+
+      TP+TN
+     -------
+      Total
+
+#### Precision
+
+      TP
+     -----
+     TP+FP
+
+#### Recall
+
+      TP
+     -----
+     TP+FN
+     
+### F1 Score
+
+#### Research target:
+
 Above 90%
 Experimental Design
 Phase 1
-Generate:
+Generate: code 
 50 Golden Designs
 Phase 2
 Insert:
